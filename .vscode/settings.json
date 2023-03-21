@@ -1,0 +1,12 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "idf.openOcdConfigs": [
+        "board/esp32-bridge.cfg"
+    ],
+    "idf.flashType": "UART",
+    "idf.port": "/dev/ttyUSB0",
+    "files.associations": {
+        "err.h": "c",
+        "esp_http_server.h": "c"
+    }
+}
